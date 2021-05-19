@@ -8,15 +8,15 @@ Te mostraré lo que he aprendido y los proyectos que he realizado con mis compa�
 
 Hasta el momento los proyectos en los que he participado son:
 
-- [x] SilaCodersOne
-- [x] WhellDoom
-- [ ] ToDoList
-- [x] Practica: Store en Java
-- [ ] Movie-Server (introduccion a SpringBoot)
+  * SilaCodersOne
+  * WhellDoom
+  * ToDoList
+  * Practica: Store en Java
+  * Movie-Server (introduccion a SpringBoot)
 
 Los lenguajes de programación que estoy aprendiendo son:
 
-* HTML
-* CSS
-* JavaScript
-* Java
+  * HTML
+  * CSS
+  * JavaScript
+  * Java
