@@ -7,7 +7,11 @@
     background-color: #dde6e7;
 }
 .mPw{
+    display: flex;
+    align-items: center;
     color: white;
+    font-family: Tahoma, Arial, Calibri;
+    text-align: left;
 }
 .contButton{
     display: flex;
@@ -17,6 +21,7 @@
     width: 100%;
     margin-bottom: 50px;
     text-align: left;
+
 }
 
 .about,.proyect, .contact{
@@ -24,6 +29,8 @@
     margin: 10px;
     width: 100px;
     font-family: Tahoma, Arial, Calibri, Calibri;
-
-
+    cursor: pointer;
+    background-color: transparent;
+    color: #FFFFFFFF;
+    border-color: #000000FF;
 }
