@@ -2,9 +2,12 @@
     margin: 0;
     padding:0;
     width:100%;
-    height: 100%;
+    height: 85%;
+    overflow-y:hidden;
 }
-
+body{
+    background-attachment: fixed;
+}
 .logo{
     display: flex;
     align-items: center;
@@ -41,15 +44,8 @@
 .about:hover,.proyect:hover,.contact:hover{
     color: #777da4;
 }
-
-#img{ /* imagen del fondo (pantalla principal)*/
-    background-repeat: no-repeat;
-    background-position: 100% 50%;
-    background-size: cover;
-    width: 50%;
-    padding: 0;
-    margin: 0;
-    height: 50%;
-    max-width: 100%;
-}
-
+.welcome
+{
+    display: flex;
+    justify-content: center;
+    font-family: Tahoma, Arial, Calibri, Calibri;
