@@ -10,7 +10,7 @@ body{
 }
 .logo{
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: left;
     padding: 10px;
     width: 40px;
@@ -22,11 +22,11 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #000000;
-    height: 50px;
+    height: 60px;
     text-align: left;
     z-index: 0;
     align-items: center;
-
+    width: 100%;
 }
 
 .about,.proyect, .contact{
@@ -42,10 +42,15 @@ body{
     font-weight: bold;
 }
 .about:hover,.proyect:hover,.contact:hover{
-    color: #777da4;
+    background-color: #777da4;
 }
-.welcome
-{
+.about a, .proyect a, .contact a{
+    text-decoration: none;
+    color: #FFFFFFFF;
+}
+.welcome{
     display: flex;
     justify-content: center;
     font-family: Tahoma, Arial, Calibri, Calibri;
+
+}
