@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal web</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -10,19 +11,18 @@
     <div>
         <img class="logo" class="" src="img/logo1.png">
     </div>
-        <audio id="sound" src="audio/soundBtn.mp3" preload="auto"></audio>
-        <button class="btn" onclick="playSound()"><a href="pages/about.html">Sobre mi</a></button>
-        <button class="btn" onclick="playSound()"><a href="pages/proyects.html">Proyectos</a></button>
-        <button class="btn" onclick="playSound()"><a href="pages/contact.html">Contacto</a></button>
+        <audio id="sound" src="audio/soundBtn.mp3"></audio>
+        <button class="btn" onclick="audio.play()"><a href="pages/about.html">Sobre mi</a></button>
+        <button class="btn" onclick="audio.play()"><a href="pages/proyects.html">Proyectos</a></button>
+        <button class="btn" onclick="audio.play()"><a href="pages/contact.html">Contacto</a></button>
 </nav>
-    <div>
-        <img class="img" src="img/principal3.png"/>
-        <div>
-            <br>
-            <h1 class="welcome">Bienvenid@s a mi web personal</h1>
+    <div class="imgTxt">
+        <img src="img/principal1.jpg"/>
+        <div class="welcome">
+            <h1>Bienvenid@s a mi web personal</h1>
         </div>
 
     </div>
-<script src="../js.js"></script>
+<script src="js/js.js"></script>
 </body>
 </html>

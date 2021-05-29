@@ -1,3 +1,7 @@
-function playSound() {
-    document.getElementById('sound').play();
-}
+let boton = document.querySelector(".btn");
+let audio = document.querySelector("#sound")
+
+boton.addEventListener('clic',() =>{
+    audio.play()
+    })
+
