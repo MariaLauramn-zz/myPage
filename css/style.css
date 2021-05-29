@@ -64,7 +64,14 @@ body{
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-
+    .logo{
+        width: 40px;
+        height: 40px;
+    }
+    .imgBrg{
+        width: 200%;
+        height: 200%;
+    }
     .btn{
         font-size: 10px;
         height: 100%;
@@ -74,14 +81,8 @@ body{
         top:40%;
         font-size: 14px;
     }
-    .imgBrg{
-        width: 200%;
-        height: 200%;
-    }
-    .logo{
-        width: 40px;
-        height: 40px;
-    }
+
+
 }
 /*CLASES PAGINA ABOUT*/
 
