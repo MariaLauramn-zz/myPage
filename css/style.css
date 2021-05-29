@@ -63,13 +63,19 @@ body{
     transform: translate(-50%, -50%);
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
     .btn{
-        font-size: 14px;
+        font-size: 10px;
+        height: 100%;
     }
     .welcome{
         top:40%;
         font-size: 14px;
+    }
+    *{
+        margin: 0;
+        padding:0;
+
     }
 }
 /*CLASES PAGINA ABOUT*/
