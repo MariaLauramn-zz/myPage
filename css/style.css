@@ -8,18 +8,11 @@
 body{
     background-attachment: fixed;
 }
-.spinner-6 {
+.logo {
     width:50px;
     height:50px;
-    border-radius:50%;
-    padding:3px;
-    background:
-            radial-gradient(farthest-side, #777da4 95%,#0000) 50% 0/12px 12px no-repeat,
-            radial-gradient(farthest-side,#0000 calc(100% - 5px), #777da4 calc(100% - 4px)) content-box;
-    animation:s6 2s infinite ;
+    padding:5px;
 }
-@keyframes s6 {to{transform: rotate(1turn)}}
-
 .contButton{
     display: flex;
     justify-content: space-between;
@@ -55,5 +48,10 @@ body{
     display: flex;
     justify-content: center;
     font-family: Tahoma, Arial, Calibri, Calibri;
-
 }
+
+.logo2 {
+    width:50px;
+    height:50px;
+    padding:5px;
+    }
