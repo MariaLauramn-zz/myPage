@@ -12,11 +12,11 @@ Hasta el momento los proyectos en los que he participado son:
   * WhellDoom
   * ToDoList
   * Practica: Store en Java
-  * Movie-Server (introduccion a SpringBoot)
+  
 
-Los lenguajes de programación que estoy aprendiendo son:
+Para este proyecto estoy utilizando:
 
   * HTML
   * CSS
   * JavaScript
-  * Java
+  
