@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     width:100%;
+    overflow-y: hidden ;
 }
 body{
     background-attachment: fixed;
@@ -80,44 +81,4 @@ body{
         top:40%;
         font-size: 14px;
     }
-}
-
-/*CLASES PAGINA ABOUT*/
-
-.logo2 {
-    width:50px;
-    height:50px;
-    padding-left: 20px;
-}
-h2{
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 35px;
-    font-family: Tahoma, Arial, Calibri, Calibri;
-    display: flex;
-    justify-content: center;
-}
-.description{
-    font-family: Tahoma, Arial, Calibri, Calibri;
-    font-size: 15px;
-    width: 100%;
-    height: 15%;
-    margin-left: 35px;
-    padding: 45px;
-    max-width: 1500px;
-
-}
-#yo{
-    width: 15%;
-    height: 15%;
-    float:left;
-}
-
-#text1{
-
-}
-
-img{
-    width: 20%;
-    height: 20%;
 }
