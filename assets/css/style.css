@@ -27,7 +27,7 @@ body{
     display: inline-block;
     margin: 10px;
     width: 180px;
-    font-family: Tahoma, Arial, Calibri, Calibri;
+    font-family: Tahoma, Arial, Calibri, Calibri, sans-serif;
     cursor: pointer;
     background-color: transparent;
     color: #FFFFFFFF;
@@ -58,7 +58,7 @@ body{
     position:absolute;
     top: 25%;
     left: 50%;
-    font-family: Tahoma, Arial, Calibri, Calibri;
+    font-family: Tahoma, Arial, Calibri, Calibri, sans-serif;
     font-size: 25px;
     transform: translate(-50%, -50%);
 }
