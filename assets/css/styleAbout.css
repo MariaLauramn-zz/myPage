@@ -53,6 +53,7 @@ h2{
     font-family: Tahoma, Arial, Calibri, Calibri, sans-serif;
     display: flex;
     justify-content: center;
+    color: #777da4;
 }
 .description{
     width: 98%;
@@ -77,7 +78,23 @@ h2{
     margin-top: 17px;
 }
 
-#likeB, #likeM, #likeT, #likeC {
-    width: 20%;
-    height: 20%;
+h3{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 35px;
+    font-family: Tahoma, Arial, Calibri, Calibri, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #777da4;
 }
+.likes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 203px;
+    height: 200px;
+    padding: 20px;
+    align-content: space-between;
+}
+ #likeB, #likeM, #likeT, #likeC{
+     margin:15px;
+ }
