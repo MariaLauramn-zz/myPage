@@ -106,3 +106,19 @@ h3{
 #likeB:hover, #likeM:hover, #likeT:hover, #likeC:hover{
     filter: drop-shadow(5px 5px 10px #60668d);
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .logo{
+        width: 35px;
+        height: 35px;
+    }
+    .imgBrg{
+        width: 200%;
+        height: 200%;
+    }
+    .btn{
+        font-size: 15px;
+        height: 100%;
+        width: 80%;
+    }
+}
