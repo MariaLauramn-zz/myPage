@@ -102,6 +102,7 @@ h3{
 
  #likeB, #likeM, #likeT, #likeC{
      margin:15px;
+     border-radius: 30px;
  }
 
 #likeB:hover, #likeM:hover, #likeT:hover, #likeC:hover{
