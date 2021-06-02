@@ -4,6 +4,9 @@
     width:100%;
     overflow-y: hidden;
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body{
     background-attachment: fixed;
 }
