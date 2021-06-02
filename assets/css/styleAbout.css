@@ -7,7 +7,12 @@
     display: none;
 }
 body{
-    background-color: #000000;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    font-family:Tahoma, Arial, Calibri, Calibri, sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
 }
 .logo2 {
     width:50px;
@@ -46,48 +51,88 @@ body{
     text-decoration: none;
     color: #FFFFFFFF;
 }
-h1{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: Tahoma, Arial, Calibri, Calibri, sans-serif;
-    display: flex;
-    justify-content: center;
-    color: #777da4;
-}
 
-.description p {
-    padding: 29px;
+.title{
     text-align: center;
-    font-family: Tahoma, Arial, Calibri, Calibri, sans-serif;
-    font-size: 110%;
-    background-color: #8f94bb;
-    border-radius: 66px;
-    width: 50%;
-    margin: 10px 10px 15px 310px;
+    font-size: 40px;
+    color: #090808;
+    margin-top: 40px;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card  {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 
 }
-.yo{
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4{
+    font-weight: 600;
+}
+
+.container .card p{
+    padding: 0;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+.container .yo{
     width: 22%;
     height: 30%;
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.likes {
-    display: flex;
-    justify-content: space-evenly;
-    width: 203px;
-    height: 200px;
-    padding: -3px;
-    margin-left: 40%;
+/* imagenes de lo que me gusta*/
+.container .title2{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.container2 .likes {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
 }
 
- #likeB, #likeM, #likeT, #likeC{
-     margin:15px;
-     border-radius: 30px;
- }
-
-#likeB:hover, #likeM:hover, #likeT:hover, #likeC:hover{
-    filter: drop-shadow(5px 5px 10px #60668d);
+.container2 .card img{
+    width: 330px;
+    height: 220px;
 }
 
 @media (min-width: 320px) and (max-width: 768px) {

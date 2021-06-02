@@ -53,14 +53,14 @@ body{
     text-decoration: none;
     color: #FFFFFFFF;
 }
-
+/*
 .imgBgr{
     position: relative;
     display: inline-block;
     text-align: center;
     color: #FFFFFFFF;
 }
-
+*/
 .title{
     text-align: center;
     font-size: 40px;
