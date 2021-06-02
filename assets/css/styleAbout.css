@@ -46,68 +46,31 @@ body{
     text-decoration: none;
     color: #FFFFFFFF;
 }
-h3{
-    margin-top: 5px;
+h1{
+    margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 27px;
     font-family: Tahoma, Arial, Calibri, Calibri, sans-serif;
     display: flex;
     justify-content: center;
     color: #777da4;
 }
-/*.description{
-   /* width: 98%;
-    margin-left: 11px;
-    padding: 9px;
-    justify-content: space-around;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}*/
-
-description1{
-    width: 100px;
-    margin-left: 11px;
-    padding: 9px;
-    justify-content: space-around;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
-.description2{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    height: 30px;
-    width: 30px;
-}
 
 .description p {
-    display: inline-block;
     padding: 29px;
     text-align: center;
     font-family: Tahoma, Arial, Calibri, Calibri, sans-serif;
     font-size: 110%;
     background-color: #8f94bb;
     border-radius: 66px;
-    margin: 0px -10px 23px;
-    height: 30%;
     width: 50%;
+    margin: 10px 10px 15px 310px;
 
 }
 .yo{
-    width: 30%;
+    width: 22%;
     height: 30%;
     margin-top: 15px;
     margin-bottom: 15px;
-    border: 1px solid #000000;
 }
 .likes {
     display: flex;
@@ -115,7 +78,7 @@ description1{
     width: 203px;
     height: 200px;
     padding: -3px;
-    align-content: space-between;
+    margin-left: 40%;
 }
 
  #likeB, #likeM, #likeT, #likeC{
