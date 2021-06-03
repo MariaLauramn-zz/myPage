@@ -11,20 +11,21 @@ body{
     background-attachment: fixed;
 }
 .logo {
-    width:50px;
-    height:50px;
+    width:60px;
+    height:60px;
     padding:20px;
 }
 .contButton{
     display: flex;
     justify-content: space-between;
-    background-color: #000000;
+    background-color: #5e5d5d;
     height: 70px;
     text-align: left;
     z-index: 0;
     align-items: center;
     width: 100%;
 }
+
 
 .btn{
     display: inline-block;
