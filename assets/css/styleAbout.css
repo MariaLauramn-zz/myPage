@@ -71,8 +71,6 @@ body{
     max-width: 1200px;
     justify-content: center;
     margin: auto;
-    display: flex;
-    justify-content: center;
 }
 
 .container .card p{
@@ -132,7 +130,7 @@ p{
     margin-top: 15px;
     margin-bottom: 20px;
 }
-.container2 .likes {
+.container3 .likes {
     width: 217px;
     height: 396px;
     border-radius: 8px;
@@ -143,7 +141,7 @@ p{
     transition: all 0.25s;
 }
 
-.container2 .card img{
+.container3 .card img{
     display: inline-block;
     width: 330px;
     height: 220px;
