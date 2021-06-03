@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../assets/css/blog.css">
 </head>
+<nav class="contButton">
+    <div>
+        <a href="../index.html" title="principal">
+            <img class="logo" src="../assets/img/logo.png">
+        </a>
+    </div>
+    <audio id="sound" src="../assets/audio/soundBtn.mp3"></audio>
+    <button class="btn" onclick="audio.play()"><a href="about.html">Sobre mi</a></button>
+    <button class="btn" onclick="audio.play()"><a href="../pages/proyects.html">Proyectos</a></button>
+</nav>
 <body>
+    <div class="clear"></div>
+    <section id="contenido">
+        <article class="article">
+            <h2>Título del artículo</h2>
+            <p>Texto del artículo</p>
+        </article>
+            <article class="article">
+                <h2>Título del artículo</h2>
+                <p>Texto del artículo</p>
+            </article>
+        <article class="article">
+            <h2>Título del artículo</h2>
+            <p>Texto del artículo</p>
+        </article>
+        <article class="article">
+            <h2>Título del artículo</h2>
+            <p>Texto del artículo</p>
+        </article>
+    </section>
+        <aside>
+            <h1>¿Qué buscas?</h1>
+            <form>
+                <input class="text" type="text"/>
+                <input class="submit" type="submit" value="buscar"/>
+            </form>
+        </aside>
+        <div class="clear">
 
+        </div>
 </body>
 </html>
