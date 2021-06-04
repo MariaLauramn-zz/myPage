@@ -174,7 +174,11 @@ p{
 
 }
 @media (min-width: 320px) and (max-width: 768px){
-
+    .container .yo{
+        width: 40%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
     .container .card{
         display: inline-flex;
         width: 90%;
@@ -196,9 +200,6 @@ p{
     container .card p{
         text-align: center;
         font-size: 12px;
-        font-family:Tahoma,Arial, Calibri, sans-serif;
-        font-weight:normal;
-        font-style: italic;
         width: 300px;
         padding: 0;
         margin-bottom: 2px;
@@ -209,5 +210,24 @@ p{
         margin-right: 10px;
         font-size: 20px;
         width: 349px;
+    }
+
+    .container3 .likes {
+        display: inline-block;
+        width: 250px;
+        border-radius: 10px;
+        margin-left:20px;
+        margin-top: 5px;
+        text-align: center;
+        flex-wrap:wrap;
+    }
+
+    .container3 .card img{
+        margin-top:15px;
+        width: 450px;
+        margin-bottom: 5px;
+    }
+    .container3 .card{
+        margin-bottom: 10px;
     }
 }
