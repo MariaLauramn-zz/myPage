@@ -192,8 +192,7 @@ p{
 
     container .card img{
         margin-top:15px;
-        width: 10px;
-        height: 50px;
+        width: 5px;
         border-radius: 10px;
     }
 
@@ -208,7 +207,7 @@ p{
     .title2{
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 20px;
+        font-size: 15px;
         width: 349px;
     }
 
