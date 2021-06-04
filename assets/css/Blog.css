@@ -109,3 +109,17 @@ aside{
 .submit:hover{
     background-color:#777da4;
 }
+
+@media (min-width: 320px) and (max-width: 768px){
+
+    #contenido{
+        width:calc(60% - 80px);
+    }
+    aside{
+        width: calc(35% - 2px);
+        min-height: 500px;
+        background: #9e9c9c;
+        padding: 10px;
+    }
+
+}
