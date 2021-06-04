@@ -177,3 +177,22 @@ p{
     border-radius: 15px;
 
 }
+@media (min-width: 320px) and (max-width: 768px){
+
+    .container .card{
+        display: inline-flex;
+        width: 200%;
+        height: 300%;
+        border-radius: 10px;
+        text-align: center;
+        transition: all 0.25s;
+        flex-wrap:wrap;
+    }
+
+    container .card img{
+        margin-top:15px;
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+    }
+}

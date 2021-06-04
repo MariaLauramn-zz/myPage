@@ -72,9 +72,10 @@ body{
         width: 35px;
         height: 35px;
     }
-    .imgBrg{
-        width: 200%;
-        height: 200%;
+    .imgBrg img{
+        width: 300%;
+        height: 300%;
+        display: flex;
     }
     .btn{
         font-size: 15px;
